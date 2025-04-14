@@ -24,7 +24,7 @@ La función "tablares( )" puede presentar errores si las bases de datos se abren
 
 # DESCRIPCIÓN
 
-## Función "tablares"
+### Función "tablares"
 La función "tablares( )" permite obtener resultados y sus errores estandar a nivel nacional y por estratos de las evaluaciones nacionales de logro de aprendizajes (ENLA) de manera automática.
 
 Se consideran tres argumentos: tablares(base_de_datos, area_evaluada, tipo_estrato)
