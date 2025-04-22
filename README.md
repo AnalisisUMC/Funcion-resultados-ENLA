@@ -50,7 +50,16 @@ Ejemplo:
 
 A continuación se muestra un ejemplo del gráfico que se genera con la función:
 
-![image](https://github.com/user-attachments/assets/faa36cd1-5f16-4be4-a293-84671d919fce)
+![image](https://github.com/user-attachments/assets/e94cd860-786d-4cce-9b85-3feb975076ab)
+
+Las características para guardar este tipo de gráficos como ".png" usando la función ggsave son las siguientes:
+
+ggsave(g1, 
+filename = "02 Gráficos/g1_nac.png", 
+w = 6.5, 
+h = 4.5, 
+dpi = 600)
+
 
 
 
