@@ -68,9 +68,12 @@ Se consideran tres argumentos: graf_estr1(bd_nacional, bd_estratos, nom_tipo), d
 
 - bd_nacional: es la base de datos de resultados a nivel nacional.
 - bd_estratos: es la base de datos de resultados para los estratos calculados de manera automática.
-- nom_tipo: define el tipo de gráfico que se va a generar. A continuación se muestran los gráficos para cada una de las opciones de nom_tipo.
+- nom_tipo: define el tipo de gráfico que se va a generar.
+
+A continuación se muestran los gráficos para cada una de las opciones de nom_tipo.
 
 ### nom_tipo = "Tipo 1"
 
+![a1](https://github.com/user-attachments/assets/4ef441a3-74f8-4176-b315-dc55bd56c9cb)
 
 
