@@ -102,6 +102,16 @@ Se consideran cinco argumentos: graf_estr1(bd_nacional_año1, bd_nacional_año2,
 
 ### nom_tipo = "Tipo 2"
 
+![lec_diapo6](https://github.com/user-attachments/assets/b586dd84-5552-4eef-97e4-e45d1e648dd2)
 
+### nom_tipo = "Tipo 3"
 
+![lec_diapo4](https://github.com/user-attachments/assets/dab8ad23-f669-4ee8-922c-5fadb5ada54e)
 
+### nom_tipo = "Tipo 4"
+
+![lec_diapo8](https://github.com/user-attachments/assets/6295dd2f-e9a0-4eb8-9d48-fd98b3bca919)
+
+### nom_tipo = "Tipo 5"
+
+![lec_diapo9](https://github.com/user-attachments/assets/deeb80b2-a64e-4683-8d41-6169c1fea948)
