@@ -31,8 +31,27 @@ Se consideran tres argumentos: tablares(base_de_datos, area_evaluada, tipo_estra
 
 Ejemplo:
 
-- tablares(bd2p_2022, "Matemática", "Nacional")  Calcula los resultados nacionales en medida promedio y niveles de logro de 2.° grado de primaria para el área evaluada de Matemática 
+- tablares(bd6p_2022, "Matemática", "Nacional")  Calcula los resultados nacionales en medida promedio y niveles de logro de 6.° grado de primaria para el área evaluada de Matemática 
 
-- tablares(bd4p_2022, "Matemática", "Estratos")  Calcula los resultados por estratos de sexo, área, gestión, gestión y área, características y DRE en medida promedio y niveles de logro de 4.° grado de primaria para el área evaluada de Matemática 
+- tablares(bd4p_2023, "Matemática", "Estratos")  Calcula los resultados por estratos de sexo, área, gestión, gestión y área, características y DRE en medida promedio y niveles de logro de 4.° grado de primaria para el área evaluada de Matemática
+
+- tablares(bd4p_2024,"Lectura","Regiones)  Calcula los resultados por estratos de sexo, área, gestión, gestión y área, características en medida promedio y niveles de logro en 4.° grado de primaria para cada región en el área evaluada de Lectura.
 
 - tablares(bd2s_2023, "Lectura", "CUALQUIER_OTRO_ESTRATO")  Calcula los resultados por el estrato que se defina en medida promedio y niveles de logro de 2.° grado de secundaria para el área evaluada de Lectura 
+
+### Función "graf_nac"
+La función "graf_nac( )" genera un gráfico con los resultados de logros de aprendizaje para los resultados de la opción "Nacional" de la función tablares( ).
+
+Se considerar un argumento: graf_nac(base_de_datos).
+
+Ejemplo:
+
+- graf_nac(lec4p_24_nac)
+
+A continuación se muestra un ejemplo del gráfico que se genera con la función:
+
+![image](https://github.com/user-attachments/assets/faa36cd1-5f16-4be4-a293-84671d919fce)
+
+
+
+
