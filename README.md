@@ -76,4 +76,11 @@ A continuación se muestran los gráficos para cada una de las opciones de nom_t
 
 ![a1](https://github.com/user-attachments/assets/4ef441a3-74f8-4176-b315-dc55bd56c9cb)
 
+### nom_tipo = "Tipo 2"
+
+![lec_diapo3](https://github.com/user-attachments/assets/3f0caf80-d2ef-41f3-9752-e95d65ab5668)
+
+### nom_tipo = "Tipo 3"
+
+![lec_diapo7](https://github.com/user-attachments/assets/59264233-c803-4fba-983d-d9274b16a31f)
 
