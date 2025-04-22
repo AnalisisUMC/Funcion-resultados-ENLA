@@ -60,6 +60,15 @@ w = 6.5,
 h = 4.5, 
 dpi = 600)
 
+### Función "graf_estrat"
+
+La función "graf_estrat( )" genera un gráfico con los resultados de logros de aprendizaje para los resultados de la opción "Estratos" comparando con la opción "Nacional" generados por la función tablares( ).
+
+Se consideran tres argumentos: graf_estr1(bd_nacional, bd_estratos, nom_tipo), donde:
+
+- bd_nacional: es la base de datos de resultados a nivel nacional.
+- bd_estratos: es la base de datos de resultados para los estratos calculados de manera automática.
+- nom_tipo: define el tipo de gráfico que se va a generar. A continuación se muestran los gráficos para cada una de las opciones de nom_tipo.
 
 
 
