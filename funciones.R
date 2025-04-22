@@ -4396,8 +4396,8 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
           geom_col(width = 0.5) +
-          geom_segment(aes(x=0.8,
-                           xend=2.2,
+          geom_segment(aes(x=0.5,
+                           xend=2.5,
                            y=0, 
                            yend=0), 
                        color="#252525",
@@ -4451,8 +4451,8 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
           geom_col(width = 0.5) +
-          geom_segment(aes(x=0.8,
-                           xend=2.2,
+          geom_segment(aes(x=0.5,
+                           xend=2.5,
                            y=0, 
                            yend=0), 
                        color="#252525",
@@ -4629,8 +4629,8 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
           geom_col(width = 0.5) +
-          geom_segment(aes(x=0.8,
-                           xend=2.2,
+          geom_segment(aes(x=0.5,
+                           xend=2.5,
                            y=0, 
                            yend=0), 
                        color="#252525",
@@ -4684,8 +4684,8 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
           geom_col(width = 0.5) +
-          geom_segment(aes(x=0.8,
-                           xend=2.2,
+          geom_segment(aes(x=0.5,
+                           xend=2.5,
                            y=0, 
                            yend=0), 
                        color="#252525",
@@ -4820,8 +4820,8 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
           geom_col(width = 0.5) +
-          geom_segment(aes(x=0.8,
-                           xend=2.2,
+          geom_segment(aes(x=0.5,
+                           xend=2.5,
                            y=0, 
                            yend=0), 
                        color="#252525",
@@ -4875,8 +4875,8 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
           geom_col(width = 0.3) +
-          geom_segment(aes(x=0.8,
-                           xend=2.2,
+          geom_segment(aes(x=0.5,
+                           xend=2.5,
                            y=0, 
                            yend=0), 
                        color="#252525",
