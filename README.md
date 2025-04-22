@@ -84,3 +84,5 @@ A continuación se muestran los gráficos para cada una de las opciones de nom_t
 
 ![lec_diapo7](https://github.com/user-attachments/assets/59264233-c803-4fba-983d-d9274b16a31f)
 
+## Función "graf_tiempo"
+
