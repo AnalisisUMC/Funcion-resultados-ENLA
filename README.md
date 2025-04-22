@@ -24,7 +24,7 @@ La función "tablares( )" puede presentar errores si las bases de datos se abren
 
 # DESCRIPCIÓN
 
-### Función "tablares"
+## Función "tablares"
 La función "tablares( )" permite obtener resultados y sus errores estandar a nivel nacional y por estratos de las evaluaciones nacionales de logro de aprendizajes (ENLA) de manera automática.
 
 Se consideran tres argumentos: tablares(base_de_datos, area_evaluada, tipo_estrato)
@@ -39,7 +39,7 @@ Ejemplo:
 
 - tablares(bd2s_2023, "Lectura", "CUALQUIER_OTRO_ESTRATO")  Calcula los resultados por el estrato que se defina en medida promedio y niveles de logro de 2.° grado de secundaria para el área evaluada de Lectura 
 
-### Función "graf_nac"
+## Función "graf_nac"
 La función "graf_nac( )" genera un gráfico con los resultados de logros de aprendizaje para los resultados de la opción "Nacional" de la función tablares( ).
 
 Se considerar un argumento: graf_nac(base_de_datos).
@@ -60,7 +60,7 @@ w = 6.5,
 h = 4.5, 
 dpi = 600)
 
-### Función "graf_estrat"
+## Función "graf_estrat"
 
 La función "graf_estrat( )" genera un gráfico con los resultados de logros de aprendizaje para los resultados de la opción "Estratos" comparando con la opción "Nacional" generados por la función tablares( ).
 
@@ -70,6 +70,7 @@ Se consideran tres argumentos: graf_estr1(bd_nacional, bd_estratos, nom_tipo), d
 - bd_estratos: es la base de datos de resultados para los estratos calculados de manera automática.
 - nom_tipo: define el tipo de gráfico que se va a generar. A continuación se muestran los gráficos para cada una de las opciones de nom_tipo.
 
+### nom_tipo = "Tipo 1"
 
 
 
