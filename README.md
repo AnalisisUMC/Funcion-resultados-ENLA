@@ -86,3 +86,22 @@ A continuación se muestran los gráficos para cada una de las opciones de nom_t
 
 ## Función "graf_tiempo"
 
+La función "graf_tiempo( )" genera un gráfico con los resultados de logros de aprendizaje para los resultados de la opción "Estratos" y "Nacional" generados por la función tablares( ) para comparar dos años distintos.
+
+Se consideran cinco argumentos: graf_estr1(bd_nacional_año1, bd_nacional_año2, bd_estratos_año1, bd_estratos_año2, nom_tipo), donde:
+
+- bd_nacional_año1: es la base de datos de resultados a nivel nacional del año 1.
+- bd_nacional_año2: es la base de datos de resultados a nivel nacional del año 2. 
+- bd_estratos_año1: es la base de datos de resultados para los estratos calculados de manera automática del año 1
+- bd_estratos_año2: es la base de datos de resultados para los estratos calculados de manera automática del año 2
+- nom_tipo: define el tipo de gráfico que se va a generar.
+
+### nom_tipo = "Tipo 1"
+
+![a1](https://github.com/user-attachments/assets/1166d89b-3048-4d2c-b0a9-0a1ea36c140c)
+
+### nom_tipo = "Tipo 2"
+
+
+
+
