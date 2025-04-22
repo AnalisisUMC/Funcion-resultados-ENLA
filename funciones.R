@@ -4395,7 +4395,7 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         #---------#
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
-          geom_col(width = 0.3) +
+          geom_col(width = 0.5) +
           geom_segment(aes(x=0.8,
                            xend=2.2,
                            y=0, 
@@ -4424,19 +4424,19 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
                     color = case_when(niveles$tipo_esp %in% "En inicio" & abs(niveles$valor) >= 12 ~ "white",
                                       TRUE ~ "#252525")) +
           geom_text(data = mp_etiq, 
-                    aes(label = valor, 
+                    aes(label = puntocoma2(valor,0), 
                         y = 90, 
                         x = año), 
                     size = 4.0, 
                     inherit.aes = FALSE) +
-          geom_text(aes(x=0.69,
+          geom_text(aes(x=0.3,
                         y=0.00,
                         label="Niveles de logro (%)"),
                     size=3.0,
                     alpha=0.2,
                     angle = 90,
                     color = "#252525") +
-          geom_text(mapping=aes(x=0.70,
+          geom_text(mapping=aes(x=0.3,
                                 y=90,
                                 label="Medida \npromedio"),
                     size=3.0,
@@ -4450,7 +4450,7 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         #---------#
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
-          geom_col(width = 0.3) +
+          geom_col(width = 0.5) +
           geom_segment(aes(x=0.8,
                            xend=2.2,
                            y=0, 
@@ -4479,19 +4479,19 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
                     color = case_when(niveles$tipo_esp %in% "En inicio" & abs(niveles$valor) >= 12 ~ "white",
                                       TRUE ~ "#252525")) +
           geom_text(data = mp_etiq, 
-                    aes(label = valor, 
+                    aes(label = puntocoma2(valor,0), 
                         y = 90, 
                         x = año), 
                     size = 4.0, 
                     inherit.aes = FALSE) +
-          geom_text(aes(x=0.69,
+          geom_text(aes(x=0.3,
                         y=0.00,
                         label="Niveles de logro (%)"),
                     size=3.0,
                     alpha=0.2,
                     angle = 90,
                     color = "#252525") +
-          geom_text(mapping=aes(x=0.70,
+          geom_text(mapping=aes(x=0.3,
                                 y=90,
                                 label="Medida \npromedio"),
                     size=3.0,
@@ -4628,7 +4628,7 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         #---------#
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
-          geom_col(width = 0.3) +
+          geom_col(width = 0.5) +
           geom_segment(aes(x=0.8,
                            xend=2.2,
                            y=0, 
@@ -4657,19 +4657,19 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
                     color = case_when(niveles$tipo_esp %in% "En inicio" & abs(niveles$valor) >= 12 ~ "white",
                                       TRUE ~ "#252525")) +
           geom_text(data = mp_etiq, 
-                    aes(label = valor, 
+                    aes(label = puntocoma2(valor,0), 
                         y = 90, 
                         x = año), 
                     size = 4.0, 
                     inherit.aes = FALSE) +
-          geom_text(aes(x=0.69,
+          geom_text(aes(x=0.3,
                         y=0.00,
                         label="Niveles de logro (%)"),
                     size=3.0,
                     alpha=0.2,
                     angle = 90,
                     color = "#252525") +
-          geom_text(mapping=aes(x=0.70,
+          geom_text(mapping=aes(x=0.3,
                                 y=90,
                                 label="Medida \npromedio"),
                     size=3.0,
@@ -4683,7 +4683,7 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         #---------#
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
-          geom_col(width = 0.3) +
+          geom_col(width = 0.5) +
           geom_segment(aes(x=0.8,
                            xend=2.2,
                            y=0, 
@@ -4712,19 +4712,19 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
                     color = case_when(niveles$tipo_esp %in% "En inicio" & abs(niveles$valor) >= 12 ~ "white",
                                       TRUE ~ "#252525")) +
           geom_text(data = mp_etiq, 
-                    aes(label = valor, 
+                    aes(label = puntocoma2(valor,0), 
                         y = 90, 
                         x = año), 
                     size = 4.0, 
                     inherit.aes = FALSE) +
-          geom_text(aes(x=0.69,
+          geom_text(aes(x=0.3,
                         y=0.00,
                         label="Niveles de logro (%)"),
                     size=3.0,
                     alpha=0.2,
                     angle = 90,
                     color = "#252525") +
-          geom_text(mapping=aes(x=0.70,
+          geom_text(mapping=aes(x=0.3,
                                 y=90,
                                 label="Medida \npromedio"),
                     size=3.0,
@@ -4819,7 +4819,7 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
         #---------#
         
         ggplot(niveles, aes(x = año, y = valor, fill = tipo_esp)) + 
-          geom_col(width = 0.3) +
+          geom_col(width = 0.5) +
           geom_segment(aes(x=0.8,
                            xend=2.2,
                            y=0, 
@@ -4848,19 +4848,19 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
                     color = case_when(niveles$tipo_esp %in% "En inicio" & abs(niveles$valor) >= 12 ~ "white",
                                       TRUE ~ "#252525")) +
           geom_text(data = mp_etiq, 
-                    aes(label = valor, 
+                    aes(label = puntocoma2(valor,0),  
                         y = 90, 
                         x = año), 
                     size = 4.0, 
                     inherit.aes = FALSE) +
-          geom_text(aes(x=0.69,
+          geom_text(aes(x=0.3,
                         y=0.00,
                         label="Niveles de logro (%)"),
                     size=3.0,
                     alpha=0.2,
                     angle = 90,
                     color = "#252525") +
-          geom_text(mapping=aes(x=0.70,
+          geom_text(mapping=aes(x=0.3,
                                 y=90,
                                 label="Medida \npromedio"),
                     size=3.0,
@@ -4903,19 +4903,19 @@ graf_tiempo <- function(bd_año1,bd_año2,bd_año1_estrat, bd_año2_estrat, nom_
                     color = case_when(niveles$tipo_esp %in% "En inicio" & abs(niveles$valor) >= 12 ~ "white",
                                       TRUE ~ "#252525")) +
           geom_text(data = mp_etiq, 
-                    aes(label = valor, 
+                    aes(label = puntocoma2(valor,0),  
                         y = 90, 
                         x = año), 
                     size = 4.0, 
                     inherit.aes = FALSE) +
-          geom_text(aes(x=0.69,
+          geom_text(aes(x=0.3,
                         y=0.00,
                         label="Niveles de logro (%)"),
                     size=3.0,
                     alpha=0.2,
                     angle = 90,
                     color = "#252525") +
-          geom_text(mapping=aes(x=0.70,
+          geom_text(mapping=aes(x=0.3,
                                 y=90,
                                 label="Medida \npromedio"),
                     size=3.0,
